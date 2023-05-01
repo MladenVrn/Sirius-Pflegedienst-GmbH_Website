@@ -21,16 +21,17 @@ const Kontakt = () => {
         updatedValue[e.target.id] = e.target.value;
         setObj(updatedValue);
 
-           console.log(updatedValue);
+        console.log(updatedValue);
     }
 
   
     // const serviceId = process.env.REACT_APP_SERVICE_ID;
     // const templateId = process.env.REACT_APP_TEMPLATE_ID;
     // const public_key = process.env.REACT_APP_API_KEY;
+   
+   //hier pfad + port von php app eintragen
     const SERVICE_API = 'http://localhost:443/php_scripts/email_service.php';
 
-    // //email function
     const form = useRef();
 
     const sendMail = (e) => {
