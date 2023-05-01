@@ -19,14 +19,6 @@ const Kontakt = () => {
 
         let updatedValue = {...obj};
         updatedValue[e.target.id] = e.target.value;
-        // updatedValue = {
-        //     fname:e.target.value, 
-        //     email:e.target.value,
-        //     message: e.target.value,
-        //     mailSent: false,
-        //     error: null
-        // };
-
         setObj(updatedValue);
 
            console.log(updatedValue);
