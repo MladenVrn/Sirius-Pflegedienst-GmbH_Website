@@ -1,0 +1,109 @@
+.home_text_desktop, .zeiten{
+    display:none;
+}
+.home_screen{
+    display:flex;
+    justify-content: center;
+}
+.home_screen > img{
+    width:100vw;
+    height:40vh;
+    position:absolute;
+}
+.home_text_mobile{
+    text-align: left;
+    border-radius: 5%;
+    position:relative;
+    background-color: #fff;
+    opacity: 0.85;
+    top:10px;
+    height:38vh;
+    width:80vw;
+    overflow:hidden;
+}
+.home_content_mobile > h3{
+    color:#4682b4;
+}
+.home_content_mobile{
+    padding:10px;
+}
+.direkt_kontakt_mobile{
+    transform: translateX(-400px);
+}
+.direkt_kontakt_mobilevisible{
+    cursor:pointer;
+    font-size:10px;
+    background: #4682b4 !important;
+    color:#fff !important;
+    text-decoration: none;
+    padding:6px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 700;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    display:flex;
+    transform: translateX(0px);
+    transition: transform ease-in-out 0.8s;
+}
+
+/* DESKTOP DESIGN STARTS HERE */
+@media only screen and (min-width: 1001px) {
+    .home_text_mobile{
+        display:none;
+    }
+    .home_screen{
+        height:120vh;
+        display:flex;
+        justify-content: flex-end;
+    }
+    .home_screen > img{
+        height:120vh;
+        position:absolute;
+    }
+    .home_text_desktop{
+        display:block;
+        text-align: left;
+        border-radius: 2%;
+        position:relative;
+        background-color: #fff;
+        opacity: 0.85;
+        top:10vh;
+        right:25vh;
+        height:50vh;
+        width:30vw;
+        overflow:hidden;
+    }
+    .home_content_desktop > h1{
+        color:#4682b4;
+    }
+    .home_content_desktop > p{
+        font-size: 17px;
+    }
+    .home_content_desktop{
+        line-height: 25px;
+        padding:15px;
+    }
+    .direkt_kontakt_desktop{
+        transform: translateX(-400px);
+    }
+    .direkt_kontakt_desktopvisible{
+        cursor:pointer;
+        font-size:20px;
+        background: #4682b4 !important;
+        color:#fff !important;
+        text-decoration: none;
+        padding:8px;
+        line-height: 20px;
+        text-transform: uppercase;
+        font-family: sans-serif;
+        font-weight: 700;
+        border-radius: 3px;
+        letter-spacing: 2px;
+        display:flex;
+        transform: translateX(0px);
+        transition: transform ease-in-out 0.8s;
+    }
+
+}

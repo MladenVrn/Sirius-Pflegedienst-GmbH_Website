@@ -1,0 +1,56 @@
+.footer_content{
+    margin-top: 20vh;
+    padding:15px;
+    background-color: #4682b4;
+    display:flex;
+    color:white;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer_left h2, .footer_right h2{
+    color:white;
+}
+
+.footer_mid a{
+    cursor: pointer;
+    color:white;
+    text-decoration: none;
+
+}
+.impr_content h1,h2{
+    color:#4682b4;
+}
+.impr{
+    display:none;
+}
+.imprshow{
+    display:block;
+    background-color: #fff;
+    padding:15px;
+}
+.impr_contentshow{
+    color:black;
+    width:60vw;
+    margin:0 auto;
+}
+
+
+/* DESKTOP DESIGN STARTS HERE */
+@media only screen and (min-width: 1001px) {
+    .footer{
+        margin:0 auto;
+        width:50vw;
+        display:flex;
+        justify-content: space-between;
+    }
+    .footer_mid{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .copy{
+        display:flex;
+        justify-content: center;
+    }
+}

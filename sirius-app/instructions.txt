@@ -1,0 +1,22 @@
+TODO:::
+
+Navigation:
+- Toggle Hamburger Menu properly ####done
+-slide in : Mobile Info Intersection observer ####done
+
+
+Home:
+- bild einfügen ###done
+- text mit email button und infos ###done
+- intersection slide in ### done
+
+Pflegedienst:
+icons:  https://www.flaticon.com/free-icon/doctor_872097
+    Desktop:
+        -content bei intersection von unten paar mm hoch 
+        -content: bilder mit text
+    Mobile:
+        -cards mit bildern , bisschen text und 'Mehr lesen' funktion
+
+
+

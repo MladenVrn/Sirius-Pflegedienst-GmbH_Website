@@ -1,0 +1,226 @@
+.leistungen_content{
+    margin-top:5vh;
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 10vh;
+}
+
+.grundpflege_l{
+    margin:0 auto;
+    border:1px solid white;
+    padding:18px;
+    overflow: hidden;
+    margin: 15px;
+}
+.grundpflege_logo{
+    border-radius: 50%;
+    width:20vw;
+    height:8vh;
+    margin:0 auto;
+    border:1px solid white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    padding:18px;
+    overflow: hidden;
+}
+.grundpflege_logo img{
+    height: 70px;
+}
+.grundpflege_dienst h4{
+    color:#4682b4;
+}
+/* Medizinische maßnahmen*/
+.mobi_l{
+    margin:0 auto;
+    border:1px solid white;
+    padding:18px;
+    overflow: hidden;
+    margin: 15px;
+}
+.mobi_logo{
+    border-radius: 50%;
+    width:20vw;
+    height:8vh;
+    margin:0 auto;
+    border:1px solid white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    padding:18px;
+    overflow: hidden;
+}
+.mobi_logo img{
+    height: 75px;
+}
+.mobi_dienst h4{
+    color:#4682b4;
+}
+/* INTENSIVPFLEGE */
+.intensiv_l{
+    margin:0 auto;
+    border:1px solid white;
+    padding:18px;
+    overflow: hidden;
+    margin: 15px;
+}
+.intensiv_logo{
+    border-radius: 50%;
+    width:20vw;
+    height:8vh;
+    margin:0 auto;
+    border:1px solid white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    padding:18px;
+    overflow: hidden;
+}
+.intensiv_logo img{
+    height: 75px;
+}
+.intensiv_dienst h4{
+    color:#4682b4;
+}
+
+/* SERVICE*/
+.service_l{
+    margin:0 auto;
+    border:1px solid white;
+    padding:18px;
+    overflow: hidden;
+    margin: 15px;
+}
+.service_logo{
+    border-radius: 50%;
+    width:20vw;
+    height:8vh;
+    margin:0 auto;
+    border:1px solid white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    padding:18px;
+    overflow: hidden;
+}
+.service_logo img{
+    height: 75px;
+}
+.service_dienst h4{
+    color:#4682b4;
+}
+/* DESKTOP DESIGN STARTS HERE */
+@media only screen and (min-width: 1001px) {
+    .leistungen{
+        width:70vw;
+        margin:0 auto;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+        padding-bottom: 10vh;
+    }
+    .grundpflege_l{
+        border-radius: 10%;
+        margin:0 auto;
+        border:1px solid white;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+        padding:18px;
+        overflow: hidden;
+        margin: 15px;
+        width:20vw;
+    }
+    .grundpflege_logo{
+        border-radius: 50%;
+        width:10vw;
+        height:20vh;
+        margin:0 auto;
+        border:1px solid white;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+        padding:18px;
+        overflow: hidden;
+    }
+    .grundpflege_logo img{
+        height: 130px;
+    }
+    .grundpflege_dienst h4{
+        color:#4682b4;
+    }   
+
+    /* Medizinische maßnahmen*/
+.mobi_l{
+    border-radius: 10%;
+    margin:0 auto;
+    border:1px solid white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    padding:18px;
+    overflow: hidden;
+    margin: 15px;
+    width:20vw;
+}
+.mobi_logo{
+    border-radius: 50%;
+        width:10vw;
+        height:20vh;
+        margin:0 auto;
+        border:1px solid white;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+        padding:18px;
+        overflow: hidden;
+}
+.mobi_logo img{
+    height: 130px;
+}
+.mobi_dienst h4{
+    color:#4682b4;
+}
+
+/* INTENSIVPFLEGE */
+.intensiv_l{
+    border-radius: 10%;
+    margin:0 auto;
+    border:1px solid white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    padding:18px;
+    overflow: hidden;
+    margin: 15px;
+    width:20vw;
+}
+.intensiv_logo{
+    border-radius: 50%;
+    width:10vw;
+    height:20vh;
+    margin:0 auto;
+    border:1px solid white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    padding:18px;
+    overflow: hidden;
+}
+.intensiv_logo img{
+    height: 130px;
+}
+.intensiv_dienst h4{
+    color:#4682b4;
+}
+
+/* SERVICE*/
+.service_l{
+    border-radius: 10%;
+    margin:0 auto;
+    border:1px solid white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    padding:18px;
+    overflow: hidden;
+    margin: 15px;
+    width:20vw;
+}
+.service_logo{
+    border-radius: 50%;
+    width:10vw;
+    height:20vh;
+    margin:0 auto;
+    border:1px solid white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+    padding:18px;
+    overflow: hidden;
+}
+.service_logo img{
+    height: 130px;
+}
+.service_dienst h4{
+    color:#4682b4;
+}
+
+}
